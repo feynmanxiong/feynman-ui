@@ -1,0 +1,36 @@
+/*
+* @Author: Feynman
+* @Date: 2020-08-20 19:37:37
+* @Last Modified by: Feynman
+* @Last Modified Time: 2020-08-20 19:38:59
+*/
+
+/* 去掉所有元素的内外边距*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, pre, a, img, 
+ul, li, form, label, input, table, tbody, tfoot, thead, tr, th, td, 
+audio, video{
+    margin: 0;
+    padding: 0;
+}
+/*统一全局字体*/
+body{
+   font-family: 'PingFang SC' Arial, Helvetica, sans-serif;
+}
+/*列表元素去掉默认样式*/
+ul, ol{
+    list-style: none;
+}
+/*table元素边框折叠*/
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*去掉默认的下划线*/
+a{
+    text-decoration: none;
+}
+/*去掉input自带的边缘效果和背景颜色*/
+input{
+    outline: none;
+    background: none;
+}

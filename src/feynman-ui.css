@@ -1,1 +1,12 @@
+/*
+* @Author: Feynman
+* @Date: 2020-08-20 19:59:37
+* @Last Modified by: Feynman
+* @Last Modified Time: 2020-08-20 20:02:59
+*/
 
+/*reset css*/
+@import './reset.css';
+
+/*common css*/
+@import './common.css';

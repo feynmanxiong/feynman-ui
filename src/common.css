@@ -1,0 +1,30 @@
+/*
+* @Author: Feynman
+* @Date: 2020-08-20 19:49:37
+* @Last Modified by: Feynman
+* @Last Modified Time: 2020-08-20 19:52:59
+*/
+/*屏幕宽度在340px和410px之间的样式*/
+/* @media(min-width: 340px) and (max-width: 410px){
+
+} */
+
+/*用一个区间内的样式当作基础样式*/
+/*样式2*/
+html{
+    font-size: 20px;
+}
+
+/*屏幕宽度小于340px时的样式*/
+@media(max-width: 340px){
+    html{
+        font-size: 18px;
+    }
+}
+
+/*屏幕宽度大于410px时的样式*/
+@media(min-width: 410px){
+    html{
+        font-size: 22px;
+    }
+}
