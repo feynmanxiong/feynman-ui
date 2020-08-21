@@ -10,3 +10,18 @@
 
 /*common css*/
 @import './common.css';
+
+/*icon css*/
+@import './icon.css';
+
+/*header css*/
+@import './header.css';
+
+/*content css*/
+@import './content.css';
+
+/*navbar css*/
+@import './navBar.css';
+
+/*form css*/
+@import './form.css'

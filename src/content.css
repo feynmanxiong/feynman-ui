@@ -1,0 +1,37 @@
+
+.fx-content{
+    position: relative;
+    box-sizing: border-box;
+    overflow-y: auto;   
+}
+
+.fx-header ~ .fx-content{
+    padding-top: 2.3rem;
+}
+
+.fx-navbar ~ .fx-content{
+    padding-bottom: 2.5rem;
+}
+
+.fx-content .fx-panel-title{
+    height: 1.8rem;
+    line-height: 1.8rem;
+    padding-left: 1rem;
+    color: #aaa;
+    background: #fff;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+    font-weight: normal;
+}
+.fx-content .fx-panel-body{
+    position: relative;
+    margin-bottom: .6rem;
+    padding: .6rem 1rem;   
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.fx-content .fx-panel-body.no-padding{
+    padding: 0;   
+}
