@@ -24,4 +24,14 @@
 @import './navBar.css';
 
 /*form css*/
-@import './form.css'
+@import './form.css';
+
+/*button css*/
+@import './button.css';
+
+/*search css*/
+@import './search.css';
+
+/*list css*/
+@import './list.css';
+
